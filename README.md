@@ -1,1 +1,1 @@
-# rsschool-cv
+https://skadiz.github.io/rsschool-cv/
