@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="container-centered">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./images/personalPhoto.jpg" alt="Portrait" width="250" height="300">
+          <h1>Vsevolod Kurochka</h1>
+          <h2>Intern Frontend Developer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="./images/phone-icon.jpg" alt="Phone Icon" width="30" height="30">
+                <p>+38 (098) 597 18 19</p>
+              </li>
+              <li>
+                <img src="./images/phone-icon.jpg" alt="Phone Icon" width="30" height="30">
+                <p>+48 884 009 532</p>
+              </li>
+              <li>
+                <img src="./images/email-icon.png" alt="Email Icon" width="30" height="30">
+                <p>kurochkaseva@gmail.com</p>
+              </li>
+              <li>
+                <img src="./images/telegram-icon.png" alt="Telegram Icon" width="30" height="30">
+                <p>@skadiz</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript Basics</li>
+              <li>Java Basics</li>
+              <li>Node.js (Express framework)</li>
+              <li>.NET</li>
+              <li>C++ Basics</li>
+              <li>UML basics</li>
+              <li>SQL</li>
+              <li>Unity</li>
+              <li>Git, GitHub</li>
+              <li>VS Code, IntelliJ IDEA</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>Upper-intermediate</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">Ukrainian</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">Polish</p>
+                <p>Intermediate</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <h3>About Myself</h3>
+          </div>
+          <p>Hi there! I am a student of IT university in Poland, searching a perfect company to start the journey into IT career.</p>
+          <p>I like playing computer games, love my family and my dog.</p>
+          <p>Founding the programming as a personal passion. Really like online courses such as Udemy, Coursera and Youtube videos. But everyone needs to earn an experience of studying at university</p>
+          <p>I’m looking for collaboration in non-profit / commercial projects in Education and Science</p>
+          <p>
+            <u>Personal skills:</u>
+            honest, organized, punctual, flexible, problem solver, team player    
+          </p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Polsko-Japońska Akademia Technik Komputerowych</strong></p>
+          <p><strong>(PJATK) w Warszawie</strong></p>
+          <p>Years: 2018-2023</p>
+          <p>Specialization: Game Developer(Unity 2020-2021)</p>
+          <p>Specialization: Business Applications Developer (2021-2023)</p>
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>EPAM's .NET Summer course(current)</li>
+            <li>Web Development Bootcamp on Udemy</li>
+            <li>React from 0 on Udemy</li>
+            <li>RS Schools «JavaScript/Front-end. Stage 1»(current)</li>
+          </ul>
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <h3>Code example</h3>
+          </div>
+          <pre>
+            <code>
+              import java.util.*;
+               public class Kata {
+                 public static int findLongest(String str){
+                   int n = str.length();
+                   int res = 0, curr_len = 0;
+                   for (int i = 0; i &lt; n; i++)
+                     {
+                         if (str.charAt(i) != ' ')
+                             curr_len++;
+                         else
+                         {
+                             res = Math.max(res, curr_len);
+                             curr_len = 0;
+                         }
+                     }
+                   return Math.max(res, curr_len);
+                 }
+               }
+            </code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/Skadiz">
+        <img class="github-icon" src="./images/github-icon.png" alt="Github Icon" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2021</p>
+      <a href="https://rs.school/js/">
+        <img src="./images/rs_school-icon.png" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
